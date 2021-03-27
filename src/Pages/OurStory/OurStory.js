@@ -9,10 +9,10 @@ const OurStory = () => {
             <hr></hr>
             <main className="container shadow-lg p-3 mb-5 rounded main">
                 {/* <div className="row"> */}
-                <section className="row">
+                <section className="row section">
                     <div className="col-md-4 about-me-photo">
 
-                        <img src="./images/Proposal.jpg" alt="Proposal" className="img-thumbnail"></img>
+                        <img src="./images/Proposal.JPG" alt="Proposal" className="img-thumbnail"></img>
                     </div>
 
                     <div className="col-md-8">
@@ -27,7 +27,7 @@ const OurStory = () => {
 
                 </section>
 
-                <section className="row">
+                <section className="row section">
                     <div className="col-md-4 about-me-photo">
 
                         <img src="./images/Surprise.jpg" alt="Surprise" className="img-thumbnail"></img>
@@ -42,7 +42,7 @@ const OurStory = () => {
                     </div>
                 </section>
 
-                <section className="row">
+                <section className="row section">
                     <div className="col-md-4 about-me-photo">
 
                         <img src="./images/Kiss.jpg" alt="Kiss" className="img-thumbnail"></img>

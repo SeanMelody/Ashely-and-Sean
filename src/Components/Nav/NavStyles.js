@@ -10,7 +10,7 @@ module.exports = {
     linkStyles: {
         textDecoration: "none",
         color: "black",
-        fontSize: "2rem",
+        fontSize: "15px",
         fontWeight: "bold"
     },
 

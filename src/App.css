@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: linear-gradient(yellow, orange, red, purple 85%);
+  background: radial-gradient(rgb(242, 242, 60), rgb(250, 197, 99), rgb(124, 4, 244));
 }
 .background-Image {
  background-image: url("./Sunset-Kiss.jpg");
@@ -19,4 +19,8 @@ background-size: cover;
   height: 300px;
   padding: 5px;
   margin: 5px;
+}
+
+.section {
+  padding: 10px;
 }
