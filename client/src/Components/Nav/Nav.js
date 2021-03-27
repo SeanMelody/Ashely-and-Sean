@@ -9,15 +9,15 @@ function Nav() {
     return (
         <nav className="nav row" style={styles.navStyles}>
             <Link to="/" style={styles.linkStyles}>
-                <p className="navbar-brand" style={styles.Title}>Sean Melody</p>
+                <p className="navbar-brand" style={styles.Title}>Ashley and Sean</p>
             </Link>
-            {/* <Link to="/about" style={styles.linkStyles}>
-                <p>About</p>
+            <Link to="/ourstory" style={styles.linkStyles}>
+                <p>Our Story</p>
             </Link>
-            <Link to="/portfolio" style={styles.linkStyles}>
+            {/* <Link to="/portfolio" style={styles.linkStyles}>
                 <p>Portfolio</p>
-            </Link>
-            <Link to="/contact" style={styles.linkStyles}>
+            </Link> */}
+            {/* <Link to="/contact" style={styles.linkStyles}>
                 <p>Contact</p>
             </Link> */}
         </nav>

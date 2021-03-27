@@ -2,7 +2,7 @@ module.exports = {
     GifStyles: {
         // backgroundImage: url("/images/Binary-Gif1.gif"),
         width: "100%",
-        height: "1300px",
+        height: "100%",
         margin: "0",
         backgroundPosition: "center",
         position: "absolute"
@@ -13,6 +13,8 @@ module.exports = {
     },
 
     Rounded: {
-        borderRadius: "25px"
+        borderRadius: "25px",
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+        padding: "20px"
     }
 }
