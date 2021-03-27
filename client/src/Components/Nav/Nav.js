@@ -14,9 +14,9 @@ function Nav() {
             <Link to="/ourstory" style={styles.linkStyles}>
                 <p>Our Story</p>
             </Link>
-            {/* <Link to="/portfolio" style={styles.linkStyles}>
-                <p>Portfolio</p>
-            </Link> */}
+            <Link to="/location" style={styles.linkStyles}>
+                <p>Location</p>
+            </Link>
             {/* <Link to="/contact" style={styles.linkStyles}>
                 <p>Contact</p>
             </Link> */}
