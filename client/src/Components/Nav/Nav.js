@@ -17,9 +17,18 @@ function Nav() {
             <Link to="/location" style={styles.linkStyles}>
                 <p>Location</p>
             </Link>
-            {/* <Link to="/contact" style={styles.linkStyles}>
+            <Link to="/weddingparty" style={styles.linkStyles}>
                 <p>Contact</p>
-            </Link> */}
+            </Link>
+            <Link to="/photosofus" style={styles.linkStyles}>
+                <p>Contact</p>
+            </Link>
+            <Link to="/Covidq-a" style={styles.linkStyles}>
+                <p>Contact</p>
+            </Link>
+            <Link to="/registry" style={styles.linkStyles}>
+                <p>Contact</p>
+            </Link>
         </nav>
     )
 }
