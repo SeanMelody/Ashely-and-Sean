@@ -2,14 +2,13 @@ import React from 'react'
 
 const Location = () => {
     return (
-        <div className="container mx-auto">
-            <main className="container shadow-lg p-3 mb-5 rounded main">
+        <div className="container">
+            <main className="shadow-lg p-3 mb-5 rounded main">
                 <div className="row">
                     <h3 className="row mx-auto">San Francisco, CA</h3>
                     <div className="row">
-
                         <img src="./images/SF.jpg" alt="SF" className="sf img-thumbnail col-md-4"></img>
-                        <p className="col-md-4"> We are excited to celebrate in the city that we met in</p>
+                        <p className="col-md-"> We are excited to celebrate in the city that we met in</p>
                     </div>
 
                 </div>

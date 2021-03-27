@@ -8,9 +8,6 @@ import styles from "./NavStyles"
 function Nav() {
     return (
         <nav className="nav row" style={styles.navStyles}>
-            <Link to="/" style={styles.linkStyles}>
-                <p className="navbar-brand" style={styles.Title}>Ashley and Sean</p>
-            </Link>
             <Link to="/ourstory" style={styles.linkStyles}>
                 <p>Our Story</p>
             </Link>
@@ -23,7 +20,7 @@ function Nav() {
             <Link to="/photosofus" style={styles.linkStyles}>
                 <p>Photos of Us</p>
             </Link>
-            <Link to="/Covidq-a" style={styles.linkStyles}>
+            <Link to="/covidq-a" style={styles.linkStyles}>
                 <p>COVID and Q & A </p>
             </Link>
             <Link to="/registry" style={styles.linkStyles}>
