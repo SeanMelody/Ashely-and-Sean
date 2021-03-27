@@ -2,18 +2,18 @@ import React from 'react'
 
 const Location = () => {
     return (
-        <div className="container">
-            <main className="shadow-lg p-3 mb-5 rounded main">
-                <div className="row">
+        <div>
+            <main className="container">
+                <div className="row justify-content-center">
                     <h3 className="row mx-auto">San Francisco, CA</h3>
                     <div className="row">
                         <img src="./images/SF.jpg" alt="SF" className="sf img-thumbnail col-md-4"></img>
-                        <p className="col-md-"> We are excited to celebrate in the city that we met in</p>
+                        <p className="col-md-4"> We are excited to celebrate in the city that we met in</p>
                     </div>
 
                 </div>
                 <br></br>
-                <div className="row">
+                <div className="row justify-content-center">
                     <h3 className="row mx-auto">Stern Grove</h3>
                     <div className="row">
                         <p className="col-md-4">A Beautiful park in the South West of San Francisco is where we will be having our ceremony under the trees.
@@ -22,7 +22,7 @@ const Location = () => {
                     </div>
                 </div>
                 <br></br>
-                <div className="row">
+                <div className="row justify-content-center">
 
                     <h3 className="row mx-auto">Trocadero Clubhouse</h3>
                     <div className="row">

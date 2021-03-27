@@ -9,6 +9,7 @@ import WeddingParty from "./Pages/WeddingParty/WeddingParty"
 import PhotosOfUs from "./Pages/PhotosOfUs/PhotosOfUs"
 import QandA from "./Pages/QandA/QandA"
 import Registry from "./Pages/Registry/Registry"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" component={Home} />
         </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
