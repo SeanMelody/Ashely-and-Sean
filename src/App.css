@@ -24,3 +24,17 @@ background-size: cover;
 .section {
   padding: 10px;
 }
+
+.timeline {
+  height: 300px;
+  width: 400px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.timeline-tall {
+  height: 300px;
+  width: 200px;
+  margin: 5px;
+  border: 1px solid black;
+}

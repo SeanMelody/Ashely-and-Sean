@@ -8,7 +8,8 @@ import Location from "./Pages/Location/Location"
 import WeddingParty from "./Pages/WeddingParty/WeddingParty"
 import PhotosOfUs from "./Pages/PhotosOfUs/PhotosOfUs"
 import QandA from "./Pages/QandA/QandA"
-import Registry from "./Pages/Registry/Registry"
+// import Registry from "./Pages/Registry/Registry"
+import rsvp from "./Pages/RSVP/RSVP"
 import Footer from "./Components/Footer/Footer"
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         <Nav />
         <hr></hr>
         <Switch>
-          <Route path="/registry" component={Registry} />
+          <Route path="/rsvp" component={rsvp} />
+          {/* <Route path="/registry" component={Registry} /> */}
           <Route path="/covidq-a" component={QandA} />
           <Route path="/weddingparty" component={WeddingParty} />
           <Route path="/photosofus" component={PhotosOfUs} />

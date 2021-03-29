@@ -23,8 +23,11 @@ function Nav() {
             <Link to="/covidq-a" style={styles.linkStyles}>
                 <p>COVID and Q & A </p>
             </Link>
-            <Link to="/registry" style={styles.linkStyles}>
+            {/* <Link to="/registry" style={styles.linkStyles}>
                 <p>Registry</p>
+            </Link> */}
+            <Link to="/rsvp" style={styles.linkStyles}>
+                <p>RSVP</p>
             </Link>
         </nav>
     )
