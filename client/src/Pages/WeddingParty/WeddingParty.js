@@ -6,7 +6,7 @@ const WeddingParty = () => {
         <div>
             <h1> Our Wedding Party</h1>
             <br></br>
-            <img src="./images/Group.jpg" alt="Group" className="border-dark img-thumbnail col-md-4"></img>
+            <img src="./images/Group0.jpg" alt="Group" className="border-dark img-thumbnail col-md-4"></img>
             <div className="container">
                 <div className="row justify-content-center">
                     <Members
@@ -81,7 +81,7 @@ const WeddingParty = () => {
                     <Members
                         name={"Renee"}
                         title={"Groomsman"}
-                        img={"./images/Renee0.jpg"}
+                        img={"./images/Renee.jpg"}
                         bio={"Sean's friend through college and to the bay area, fellow photo nerd! Lives in Seattle"}
                     >
                     </Members>
