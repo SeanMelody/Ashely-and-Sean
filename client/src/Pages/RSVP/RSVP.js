@@ -33,7 +33,9 @@ const RSVP = () => {
             .then((data) => {
 
                 console.log(`${rsvpForm.message} saved`)
+
             })
+        window.location.reload();
 
     };
 

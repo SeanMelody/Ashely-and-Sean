@@ -19,6 +19,10 @@ if (process.env.NODE_ENV === "production") {
 // API Routes start with API and live at apiRoutes.js
 app.use("/api", require("./routes/apiRoutes"))
 
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "public", "index.html"));
+});
+
 // Mongoose connect to wedding API.
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wedding", {
     useNewUrlParser: true,
