@@ -10,6 +10,7 @@ import PhotosOfUs from "./Pages/PhotosOfUs/PhotosOfUs"
 import QandA from "./Pages/QandA/QandA"
 // import Registry from "./Pages/Registry/Registry"
 import rsvp from "./Pages/RSVP/RSVP"
+import Messages from "./Pages/Messages/Messages"
 import Footer from "./Components/Footer/Footer"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Nav />
         <hr></hr>
         <Switch>
+          <Route path="/messages" component={Messages} />
           <Route path="/rsvp" component={rsvp} />
           {/* <Route path="/registry" component={Registry} /> */}
           <Route path="/covidq-a" component={QandA} />

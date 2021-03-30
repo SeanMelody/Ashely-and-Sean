@@ -6,7 +6,7 @@ const WeddingParty = () => {
         <div>
             <h1> Our Wedding Party</h1>
             <br></br>
-            <img src="./images/Group.jpg" alt="Group" className="sf img-thumbnail col-md-4"></img>
+            <img src="./images/Group.jpg" alt="Group" className="border-dark img-thumbnail col-md-4"></img>
             <div className="container">
                 <div className="row justify-content-center">
                     <Members

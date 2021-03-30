@@ -32,9 +32,17 @@ background-size: cover;
   border: 1px solid black;
 }
 
+.photo-margin {
+  margin: 5px;
+}
+
 .timeline-tall {
   height: 300px;
   width: 200px;
   margin: 5px;
   border: 1px solid black;
+}
+
+.signup {
+ margin: 10px;
 }

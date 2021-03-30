@@ -6,7 +6,7 @@ const OurStory = () => {
         <div style={OurStoryStyles.BodyStyle} >
 
             <h1>Our Story</h1>
-            <hr></hr>
+            <br></br>
             <main className="container shadow-lg p-3 mb-5 rounded main">
                 {/* <div className="row"> */}
                 <section className="row section">
