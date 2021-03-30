@@ -80,7 +80,7 @@ const RSVP = () => {
                     Submit
                 </button>
             </form>
-            <img src="./images/rsvp.jpg" alt="rsvp" className="border-dark img-thumbnail col-md-5"></img>
+            <img src="./images/rsvp0.jpg" alt="rsvp" className="border-dark img-thumbnail col-md-5"></img>
         </div>
     )
 }

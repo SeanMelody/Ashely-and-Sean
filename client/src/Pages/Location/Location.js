@@ -9,7 +9,7 @@ const Location = () => {
                 <div className="row">
                     <h3 className="row mx-auto">San Francisco, CA</h3>
                     <div className="row justify-content-center">
-                        <img src="./images/SF.jpg" alt="SF" className="sf img-thumbnail col-md-4"></img>
+                        <img src="./images/SF0.jpg" alt="SF" className="sf img-thumbnail col-md-4"></img>
                         <p className="col-md-4"> We are excited to celebrate in the city that we met in</p>
                     </div>
 
@@ -20,7 +20,7 @@ const Location = () => {
                     <div className="row justify-content-center">
                         <p className="col-md-4">A Beautiful park in the South West of San Francisco is where we will be having our ceremony under the trees.
                             There is Limited Parking, but it is easily accessible with Uber!</p>
-                        <img src="./images/Stern-Grove.jpg" alt="Stern-Grove" className="sf img-thumbnail col-md-4"></img>
+                        <img src="./images/Stern-Grove0.jpg" alt="Stern-Grove" className="sf img-thumbnail col-md-4"></img>
                     </div>
                 </div>
                 <br></br>
@@ -28,7 +28,7 @@ const Location = () => {
 
                     <h3 className="row mx-auto">Trocadero Clubhouse</h3>
                     <div className="row justify-content-center">
-                        <img src="./images/Trocadero-Clubhouse.jpg" alt="Trocadero-Clubhouse" className="sf img-thumbnail col-md-4"></img>
+                        <img src="./images/Trocadero-Clubhouse0.jpg" alt="Trocadero-Clubhouse" className="sf img-thumbnail col-md-4"></img>
                         <p className="col-md-4">Trocadero Clubhouse, also in Stern Grove is where we celebrate! Dinner and drinks outside,
                             but dancing will be inside the clubhouse!</p>
                     </div>
