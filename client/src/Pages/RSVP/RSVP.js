@@ -35,7 +35,7 @@ const RSVP = () => {
                 console.log(`${rsvpForm.message} saved`)
 
             })
-        window.location.reload();
+        alert("message saved!")
 
     };
 

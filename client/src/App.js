@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 //App pages styling
 import './App.css';
@@ -30,7 +31,7 @@ function App() {
           <Route path="/location" component={Location} />
           {/* <Route path="/contact" component={Contact} /> */}
           <Route path="/ourstory" component={OurStory} />
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
       </BrowserRouter>
       <Footer />
