@@ -4,7 +4,7 @@ const QandA = () => {
     return (
         <div>
             <h1>COVID and Q & A</h1>
-            <img src="./images/Pandemic.jpg" alt="Pandemic" className="sf img-thumbnail col-md-4"></img>
+            <img src="./images/Pandemic.jpg" alt="Pandemic" className="img-thumbnail col-md-5 border-dark"></img>
             <br></br>
             <div className="container">
                 <h3 className="mx-auto">COVID</h3>
