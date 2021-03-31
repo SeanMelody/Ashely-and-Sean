@@ -16,11 +16,11 @@ const PhotosOfUs = () => {
                 </div>
                 <div className="row justify-content-center">
                     <img src="./images/2015-06.jpg" alt="2015-6" className="border-dark photo-margin img-thumbnail col-md-5"></img>
-                    <img src="./images/2015-08.jpg" alt="2015-8" className=" img-thumbnail col-md-5"></img>
+                    <img src="./images/2015-08.jpg" alt="2015-8" className="border-dark photo-margin img-thumbnail col-md-5"></img>
                 </div>
                 <div className="row justify-content-center">
                     <img src="./images/2015-08-2.jpg" alt="2015-6" className="border-dark photo-margin img-thumbnail col-md-5"></img>
-                    <img src="./images/2015-09.jpg" alt="2015-8" className=" img-thumbnail col-md-5"></img>
+                    <img src="./images/2015-09.jpg" alt="2015-8" className="border-dark photo-margin img-thumbnail col-md-5"></img>
                 </div>
                 <br></br>
                 <h3>2016</h3>

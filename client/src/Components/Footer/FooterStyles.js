@@ -1,6 +1,6 @@
 module.exports = {
     Footer: {
-        height: "1rm",
+        height: "100px",
         color: "rgba(255,255,255,0.5)"
     }
 }

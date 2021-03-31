@@ -27,7 +27,7 @@ const Footer = () => {
                 /><p> days!!!</p>
             </div>
 
-            <h6>Ashley Cookerly &#9829; Sean Melody</h6>
+            <h6 className="row col-md-12 justify-content-center">Ashley Cookerly &#9829; Sean Melody</h6>
             {/* <Moment date="2021-10-09"
                 format="DDD"
                 durationFromNow
