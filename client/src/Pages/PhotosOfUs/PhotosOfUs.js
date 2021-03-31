@@ -86,7 +86,7 @@ const PhotosOfUs = () => {
                 </div>
                 <div className="row justify-content-center">
                     <img src="./images/2020-07.jpg" alt="2020-7" className="border-dark photo-margin img-thumbnail col-md-5"></img>
-                    <img src="./images/2020-011.jpeg" alt="2020-11" className=" border-dark photo-margin img-thumbnail col-md-5"></img>
+                    <img src="./images/2020-11.jpeg" alt="2020-11" className=" border-dark photo-margin img-thumbnail col-md-5"></img>
                 </div>
                 {/* <div className="row justify-content-center">
                     <img src="./images/2018-8.jpg" alt="2018-8" className="border-dark photo-margin img-thumbnail col-md-5"></img>
