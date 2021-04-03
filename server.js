@@ -16,6 +16,10 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
 
+// Static folder --MAYBE DELETE LATER?
+app.use('/public', express.static(path.join(__dirname, 'public')));
+// MAYBE DELETE LATER?
+
 // API Routes start with API and live at apiRoutes.js
 app.use("/api", require("./routes/apiRoutes"))
 

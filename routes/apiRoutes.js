@@ -1,5 +1,7 @@
 const router = require("express").Router()
 const db = require("../models")
+const nodemailer = require("nodemailer")
+require("dotenv").config();
 
 // Test get request, sends back success
 router.get("/test", (req, res) => {
@@ -31,5 +33,45 @@ router.post("/rsvps", (req, res) => {
         })
 })
 
+// Transporter for emailing a new mesasge to us!
+// Messages sent via my throw away email: dzesean@gmail.com
+const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+        user: "dzesean@gmail.com",
+        pass: process.env.EPASS,
+    }
+})
+
+// The post request to get the message from the front end
+router.post("/message", (req, res, next) => {
+    // console.log("api/message hit")
+    // console.log(req.body)
+
+    // Set the new message
+    const newMessage =
+        `From: ${req.body.name} 
+        email: ${req.body.email} 
+        message: ${req.body.message}`
+
+    // Set the message subject!
+    const messageSubject = `New Message from ${req.body.name}`
+
+    // Set the mail options to come from my garbage email, and go to our wedding email
+    const mailOptions = {
+        from: "dzesean@gmail.com",
+        to: "cookerlymelody@gmail.com",
+        subject: messageSubject,
+        text: newMessage
+    }
+    // Send the mail and check for errors with transporter and nodemailer
+    transporter.sendMail(mailOptions, (err, info) => {
+        if (err) {
+            console.log(err)
+        } else {
+            console.log("email sent")
+        }
+    })
+})
 
 module.exports = router

@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import { useHistory } from "react-router-dom";
+
+
 
 
 const RSVP = () => {
@@ -9,6 +12,10 @@ const RSVP = () => {
         email: "",
         message: ""
     });
+
+    // Use history to be able to redirect if not logged in
+    const history = useHistory()
+
 
     // Set the change for state
     const onChange = (e) => {
@@ -23,7 +30,27 @@ const RSVP = () => {
             email: rsvpForm.email,
             message: rsvpForm.message
         }
-        console.log(newRSVP)
+
+        // console.log(newRSVP)
+
+        //Send the message to our email!
+        fetch(`/api/message`, {
+            method: "POST",
+            body: JSON.stringify(newRSVP),
+            headers: { "Content-Type": "application/json" }
+        })
+            .then((response) => response.json())
+            .then((data) => {
+
+                // console.log(`${rsvpForm.message} saved`)
+
+            })
+        // alert("email sent!")
+
+
+
+
+        // Save the message to the database
         fetch(`/api/rsvps`, {
             method: "POST",
             body: JSON.stringify(newRSVP),
@@ -35,7 +62,9 @@ const RSVP = () => {
                 console.log(`${rsvpForm.message} saved`)
 
             })
-        alert("message saved!")
+        alert(`${rsvpForm.name} your new message has been saved!`)
+        history.push("/ourstory")
+
 
     };
 
