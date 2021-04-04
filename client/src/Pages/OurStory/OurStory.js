@@ -12,7 +12,8 @@ const OurStory = () => {
                 <section className="row section">
                     <div className="col-md-4 about-me-photo">
 
-                        <img src="./images/Proposal.JPG" alt="Proposal" className="img-thumbnail"></img>
+                        <img src="./images/Ice-Skating.jpg" alt="Ice Skating" className="border-dark img-thumbnail"></img>
+                        {/* <img src="./images/Proposal.JPG" alt="Proposal" className="img-thumbnail"></img> */}
                     </div>
 
                     <div className="col-md-8">
@@ -21,7 +22,9 @@ const OurStory = () => {
                             Joe knew Ashley though the Sunday Recess Rec League and met Sean when he moved to the city
                             through their mutual friend Stephen. Joe and Sean hung out a handful of times before the
                             friend groups collided at a bar off of Polk street, and Sean met
-                            Ashley.
+                            Ashley. With the bar not being the best place to start a new romance, and Sean not being
+                            smooth enough to get Ashley's number, the two didn't meet again until a
+                            few months later when the friend groups collided again Ice Skating on the Embarcadeo.
                             </p>
                     </div>
 
@@ -30,13 +33,13 @@ const OurStory = () => {
                 <section className="row section">
                     <div className="col-md-4 about-me-photo">
 
-                        <img src="./images/Surprise.jpg" alt="Surprise" className="img-thumbnail"></img>
+                        <img src="./images/Family.jpg" alt="Family" className="border-dark img-thumbnail"></img>
+                        {/* <img src="./images/Surprise.jpg" alt="Surprise" className="img-thumbnail"></img> */}
                     </div>
                     <div className="col-md-8">
                         <p style={OurStoryStyles.Paragraph}>
-                            With the bar not being the best place to start a new romance, the two didn't meet again until a
-                            few months later Ice Skating. This lead to an invite to Ashley's famous Pink birthday party
-                            and our first time "hanging out" just a few days later. Fast forward six wonderful years,
+                            Ice skating ended with to an invite to Ashley's famous Pink birthday party a few weeks later.
+                            After that night Sean got Joe's blessing and asked Ashley to "hang out". Fast forward six wonderful years,
                             endless adventures, countless delicious meals and one perfect and adorable fur baby.
                     </p>
                     </div>
@@ -44,16 +47,16 @@ const OurStory = () => {
 
                 <section className="row section">
                     <div className="col-md-4 about-me-photo">
-
-                        <img src="./images/Kiss.jpg" alt="Kiss" className="img-thumbnail"></img>
+                        <img src="./images/Proposal.JPG" alt="Proposal" className="img-thumbnail"></img>
+                        {/* <img src="./images/Kiss.jpg" alt="Kiss" className="img-thumbnail"></img> */}
                     </div>
                     <div className="col-md-8">
                         <p style={OurStoryStyles.Paragraph}>
-                            Sean finally asked Ashley to marry him under the golden gate bridge, and we are so excited
-                            to spend our lives together. COVID has made wedding planning much more of stressful
-                            endeavor that we could have ever imagined. But we were able to secure our wedding date at the
-                            Trocadero Club house in Stern Grove park in San Francisco for our wedding and dinner under the
-                            Redwood Trees, with drinks and dancing to continue inside the clubhouse as the sun sets and the
+                            Sean finally asked Ashley to marry him under the golden gate bridge in the presence of her brother and mom,
+                            under the guise of taking Family Christmas photos, and we are so excited to spend our lives together.
+                            COVID has made wedding planning much more of stressful endeavor that we could have ever imagined.
+                            But we were able to secure our wedding date at the Trocadero Club house in Stern Grove park in San Francisco
+                            for our ceremony and dinner under the  Redwood Trees, with drinks and dancing to continue inside the clubhouse as the sun sets and the
                             fog rolls in.
                             </p>
                     </div >

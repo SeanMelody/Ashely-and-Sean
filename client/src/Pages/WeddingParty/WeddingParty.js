@@ -13,14 +13,14 @@ const WeddingParty = () => {
                         name={"Lauren"}
                         title={"Co-Maid of Honor"}
                         img={"./images/Lauren-and-Ash0.jpg"}
-                        bio={"Ashley's best friend, travel partner and adventure lover! Lives in San Francisco"}
+                        bio={"Ashley's best friend, travel partner and adventure lover! Works in graphic design (made our beautiful save the date) and lives in San Francisco"}
                     >
                     </Members>
                     <Members
                         name={"Luzelena"}
                         title={"Co-Maid of Honor"}
                         img={"./images/Luz-and-Ash0.jpg"}
-                        bio={"Ashley favorite family member, travel partner and adventure lover! Lives in Philadelphia"}
+                        bio={"Ashley best friend, cousin, travel partner and adventure lover! Works in pharmaceuticals, and has been a constant help with what is happing with COVID.  Lives in Philadelphia"}
                     >
 
                     </Members>
@@ -31,14 +31,14 @@ const WeddingParty = () => {
                         name={"Jessica"}
                         title={"Bridesmaid"}
                         img={"./images/Jessica-and-Ash0.jpg"}
-                        bio={"Ashley's bad influence! Amazing Life Coach has adorable puppies! Lives in San Diego"}
+                        bio={"Ashley's bad influence! Amazing Life Coach and has adorable puppies! Lives in San Diego"}
                     >
                     </Members>
                     <Members
                         name={"Elena"}
                         title={"Bridesmaid"}
                         img={"./images/Elena-and-Ash0.jpg"}
-                        bio={"Ashley's best friend through high school! Used to have a car that would honk every time you turned the wheel! Lives in Stockton"}
+                        bio={"Ashley's best friend through high school! Has soooo many good High School Ashley Stories! Lives in Stockton"}
                     >
                     </Members>
                 </div>
@@ -57,15 +57,15 @@ const WeddingParty = () => {
                     <Members
                         name={"Joe"}
                         title={"Best Man"}
-                        img={"./images/Joe-and-Ash0.jpg"}
-                        bio={"The reason Ashley and Sean know each other! Also Sean's first San Francisco Friend, and all around bad influence Lives in El Cerrito, CA"}
+                        img={"./images/Joe-and-Sean.jpg"}
+                        bio={"The reason Ashley and Sean know each other! Sean best friend even though he routes for the Dodgers, is always down for another beer. Accounting extraordinaire. Lives in El Cerrito, CA"}
                     >
                     </Members>
                     <Members
                         name={"Matt"}
                         title={"Groomsman"}
-                        img={"./images/Matt-and-Sean0.jpg"}
-                        bio={"Sean's brother, General awesome human. Lives in Brooklyn"}
+                        img={"./images/Matt-and-Sean.jpg"}
+                        bio={"Sean's only brother, general awesome human, designs buildings in NYC, and can draw anything you can think of, and even those things you can't. Lives in Brooklyn"}
                     >
                     </Members>
                 </div>
@@ -82,7 +82,7 @@ const WeddingParty = () => {
                         name={"Renee"}
                         title={"Groomswoman"}
                         img={"./images/Renee.jpg"}
-                        bio={"Sean's friend through college and to the bay area, fellow photo nerd! Lives in Seattle"}
+                        bio={"Sean's friend through college and to the bay area. Fellow photo nerd and an accounting extraordinaire, Lives in Seattle"}
                     >
                     </Members>
                 </div>

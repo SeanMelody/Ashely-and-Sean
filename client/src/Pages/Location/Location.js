@@ -33,19 +33,17 @@ const Location = () => {
                 <br></br>
                 <div className="row">
 
-                    <h3 className="row mx-auto">Trocadero Clubhouse, San Francisco, CA</h3>
+                    <h3 className="row mx-auto">Trocadero Clubhouse in Stern Grove, San Francisco, CA</h3>
                     <br></br>
                     <div className="row justify-content-center">
                         <img src="./images/Trocadero-Clubhouse0.jpg" alt="Trocadero-Clubhouse" className="sf img-thumbnail col-md-4"></img>
                         <div className="col-md-4">
-                            <h6>We are excited to celebrate in the city that we met in</h6>
-                            <h6>A Beautiful park in the South West of San Francisco is where we will be having our ceremony under the trees.
-                            There is Limited Parking, but it is easily accessible with Uber!
-                            </h6>
-                            <h6>
-                                Trocadero Clubhouse, also in Stern Grove is where we celebrate! Dinner and drinks outside,
-                                but dancing will be inside the clubhouse!
-                            </h6>
+                            <p>We are excited to celebrate in the city that we met in and love San Francisco.</p>
+                            <p>Trocadero Clubhouse is a small house located in Stern Grove park in South West San Francisco, just off of Highway 1
+                            and filled with beautiful Redwoods, and a small pond. We have rented the house and surrounding park where we will be having our ceremony under
+                            the trees, and dinner in a grassy clearing.  After dinner, there will be drinks and dancing in the Clubhouse as night sets and the fog rolls in.
+                            </p>
+
                         </div>
                     </div>
                 </div>
