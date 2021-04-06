@@ -46,3 +46,7 @@ background-size: cover;
 .signup {
  margin: 10px;
 }
+
+.large {
+  height: 100px;
+}

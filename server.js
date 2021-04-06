@@ -24,7 +24,7 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use("/api", require("./routes/apiRoutes"))
 
 app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+    res.sendFile(path.resolve(__dirname, "client", "public", "index.html"));
 });
 
 // Mongoose connect to wedding API.

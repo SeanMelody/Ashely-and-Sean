@@ -63,7 +63,7 @@ const RSVP = () => {
 
             })
         alert(`${rsvpForm.name} your new message has been saved!`)
-        history.push("/ourstory")
+        history.push("/covidq-a")
 
 
     };
@@ -74,7 +74,7 @@ const RSVP = () => {
             <br></br>
             <form onSubmit={submit}
                 className="form-group justify-content-center">
-                <label>Name</label>
+                <h4>Name</h4>
                 <input
                     type="text"
                     name="name"
@@ -83,7 +83,7 @@ const RSVP = () => {
                     placeholder="name"
                     onChange={onChange}>
                 </input>
-                <label>Email</label>
+                <h4>Email</h4>
                 <input
                     type="email"
                     name="email"
@@ -93,8 +93,8 @@ const RSVP = () => {
                     onChange={onChange}
                 >
                 </input>
-                <label>Message</label>
-                <input
+                <h5>Message</h5>
+                {/* <input
                     type="text"
                     name="message"
                     className="form-control col-md-8 mx-auto"
@@ -102,7 +102,16 @@ const RSVP = () => {
                     placeholder="Message"
                     onChange={onChange}
                 >
-                </input>
+                </input> */}
+                <textarea
+                    type="text"
+                    name="message"
+                    className="form-control col-md-8 mx-auto large"
+                    id="message-input"
+                    placeholder="Message"
+                    onChange={onChange}
+                    rows="3">
+                </textarea>
                 {/* Button to submit the form */}
                 <button type="submit" className="btn btn-primary signup"
                     onClick={submit}>
