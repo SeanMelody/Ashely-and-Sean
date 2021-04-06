@@ -37,10 +37,11 @@ const Messages = () => {
             {savedMessages.length ? (
                 <div className="container">
                     {savedMessages.map((message) => (
-                        <div key={message._id}>
-                            <h3>From: {message.name}</h3>
-                            <h3>Email: {message.email}</h3>
-                            <h3>Message: {message.message}</h3>
+                        <div key={message._id} className="card border-dark signup">
+                            <h3 className="card-title">From: {message.name}</h3>
+                            <h3 className="card-title">Email: {message.email}</h3>
+                            <hr></hr>
+                            <p className="card-body">{message.message}</p>
                         </div>
                     )
                     )}
