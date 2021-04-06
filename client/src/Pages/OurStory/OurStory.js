@@ -22,8 +22,8 @@ const OurStory = () => {
                             Joe knew Ashley though the Sunday Recess Rec League and met Sean when he moved to the city
                             through their mutual friend Stephen. Joe and Sean hung out a handful of times before the
                             friend groups collided at a bar off of Polk street, and Sean met
-                            Ashley. With the bar not being the best place to start a new romance, and Sean not being
-                            smooth enough to get Ashley's number, the two didn't meet again until a
+                            Ashley and became smitten. With the bar not being the best place to start a new romance, and Sean not being
+                            smart enough to get Ashley's number, the two didn't meet again until a
                             few months later when the friend groups collided again Ice Skating on the Embarcadeo.
                             </p>
                     </div>
@@ -33,7 +33,7 @@ const OurStory = () => {
                 <section className="row section">
                     <div className="col-md-4 about-me-photo">
 
-                        <img src="./images/Family.jpg" alt="Family" className="border-dark img-thumbnail"></img>
+                        <img src="./images/2015-01-Long.jpg" alt="Pink Birthday Party" className="border-dark img-thumbnail"></img>
                         {/* <img src="./images/Surprise.jpg" alt="Surprise" className="img-thumbnail"></img> */}
                     </div>
                     <div className="col-md-8">

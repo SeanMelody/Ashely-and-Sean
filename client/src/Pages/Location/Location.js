@@ -36,8 +36,8 @@ const Location = () => {
                     <h3 className="row mx-auto">Trocadero Clubhouse in Stern Grove, San Francisco, CA</h3>
                     <br></br>
                     <div className="row justify-content-center">
-                        <img src="./images/Trocadero-Clubhouse0.jpg" alt="Trocadero-Clubhouse" className="sf img-thumbnail col-md-4"></img>
-                        <div className="col-md-4">
+                        {/* <img src="./images/Trocadero-Clubhouse0.jpg" alt="Trocadero-Clubhouse" className="sf img-thumbnail col-md-4"></img> */}
+                        <div className="col-md-8">
                             <p>We are excited to celebrate in the city that we met in and love San Francisco.</p>
                             <p>Trocadero Clubhouse is a small house located in Stern Grove park in South West San Francisco, just off of Highway 1
                             and filled with beautiful Redwoods, and a small pond. We have rented the house and surrounding park where we will be having our ceremony under
@@ -46,8 +46,24 @@ const Location = () => {
 
                         </div>
                     </div>
-                </div>
 
+                </div>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <img src="./images/Trocadero-1.jpg" alt="Trocadero-1" className="border-dark sf img-thumbnail"></img>
+                        <img src="./images/Trocadero-2.jpg" alt="Trocadero-2" className="border-dark sf img-thumbnail"></img>
+                        <img src="./images/Trocadero-3.jpg" alt="Trocadero-3" className="border-dark sf img-thumbnail"></img>
+                    </div>
+                    <div className="row justify-content-center">
+                        <img src="./images/Trocadero-4.jpg" alt="Trocadero-4" className="border-dark sf img-thumbnail"></img>
+                        <img src="./images/Trocadero-5.jpg" alt="Trocadero-5" className="border-dark sf img-thumbnail"></img>
+                        <img src="./images/Trocadero-6.jpg" alt="Trocadero-6" className="border-dark sf img-thumbnail"></img>
+                    </div>
+                    <div className="row justify-content-center">
+                        <img src="./images/Trocadero-7.jpg" alt="Trocadero-7" className="border-dark sf img-thumbnail"></img>
+                        <img src="./images/Trocadero-8.jpg" alt="Trocadero-8" className="border-dark sf img-thumbnail"></img>
+                    </div>
+                </div>
             </main>
         </div>
     )
