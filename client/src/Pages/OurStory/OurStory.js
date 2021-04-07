@@ -47,7 +47,7 @@ const OurStory = () => {
 
                 <section className="row section">
                     <div className="col-md-4 about-me-photo">
-                        <img src="./images/Proposal.JPG" alt="Proposal" className="img-thumbnail"></img>
+                        <img src="./images/Proposal.JPG" alt="Proposal" className="border-dark img-thumbnail"></img>
                         {/* <img src="./images/Kiss.jpg" alt="Kiss" className="img-thumbnail"></img> */}
                     </div>
                     <div className="col-md-8">

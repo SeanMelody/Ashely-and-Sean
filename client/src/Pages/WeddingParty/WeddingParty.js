@@ -58,7 +58,7 @@ const WeddingParty = () => {
                         name={"Joe"}
                         title={"Best Man"}
                         img={"./images/Joe-and-Sean.jpg"}
-                        bio={"The reason Ashley and Sean know each other! Sean best friend even though he routes for the Dodgers, is always down for another beer. Accounting extraordinaire. Lives in El Cerrito, CA"}
+                        bio={"The reason Ashley and Sean know each other! Sean's best friend even though he routes for the Dodgers, is always down for another beer. Accounting extraordinaire. Lives in El Sobrante, CA"}
                     >
                     </Members>
                     <Members
