@@ -3,7 +3,7 @@ import React from 'react'
 const Location = () => {
     return (
         <div>
-            <h1>Location:</h1>
+            <h1 className="google-font">Location</h1>
             <br></br>
             <a href="https://www.google.com/maps/place/Trocadero+Clubhouse/@37.7387525,-122.5115278,12z/data=!4m5!3m4!1s0x0:0xe93215d73ebc37b5!8m2!3d37.7361732!4d-122.4781826"
                 target="_blank"
@@ -33,7 +33,7 @@ const Location = () => {
                 <br></br>
                 <div className="row">
 
-                    <h3 className="row mx-auto">Trocadero Clubhouse in Stern Grove, San Francisco, CA</h3>
+                    <h3 className="row mx-auto google-font">Trocadero Clubhouse in Stern Grove, San Francisco, CA</h3>
                     <br></br>
                     <div className="row justify-content-center">
                         {/* <img src="./images/Trocadero-Clubhouse0.jpg" alt="Trocadero-Clubhouse" className="sf img-thumbnail col-md-4"></img> */}

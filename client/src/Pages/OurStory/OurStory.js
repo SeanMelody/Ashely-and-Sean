@@ -5,7 +5,7 @@ const OurStory = () => {
     return (
         <div style={OurStoryStyles.BodyStyle} >
 
-            <h1>Our Story</h1>
+            <h1 className="google-font">Our Story</h1>
             <br></br>
             <main className="container shadow-lg p-3 mb-5 rounded main">
                 {/* <div className="row"> */}

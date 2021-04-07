@@ -70,11 +70,11 @@ const RSVP = () => {
 
     return (
         <div>
-            <h1>Send us a note!</h1>
+            <h1 className="google-font">Send us a note!</h1>
             <br></br>
             <form onSubmit={submit}
                 className="form-group justify-content-center">
-                <h4>Name</h4>
+                <h3 className="google-font">Name</h3>
                 <input
                     type="text"
                     name="name"
@@ -83,7 +83,7 @@ const RSVP = () => {
                     placeholder="name"
                     onChange={onChange}>
                 </input>
-                <h4>Email</h4>
+                <h3 className="google-font">Email</h3>
                 <input
                     type="email"
                     name="email"
@@ -93,7 +93,7 @@ const RSVP = () => {
                     onChange={onChange}
                 >
                 </input>
-                <h5>Message</h5>
+                <h3 className="google-font">Message</h3>
                 {/* <input
                     type="text"
                     name="message"

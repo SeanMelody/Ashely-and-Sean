@@ -3,11 +3,12 @@ import React from 'react'
 const QandA = () => {
     return (
         <div>
-            <h1>COVID and Q & A</h1>
+            <h1 className="google-font">COVID and Q & A</h1>
             <img src="./images/Pandemic.jpg" alt="Pandemic" className="img-thumbnail col-md-5 border-dark"></img>
             <br></br>
             <div className="container">
-                <h3 className="mx-auto">COVID</h3>
+                <br></br>
+                <h2 className="mx-auto google-font">COVID</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         We will keep updating this page with information as it becomes available,
@@ -16,14 +17,14 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">RSVP Deadline</h3>
+                <h2 className="mx-auto google-font">RSVP Deadline</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         Deadline to RSVP is August 15th, but we would love to hear from you as soon as possible.
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">Can I bring a date?</h3>
+                <h2 className="mx-auto google-font">Can I bring a date?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         Please check your invite for your +1. We have a very strict limit to how many people can attend,
@@ -31,7 +32,7 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">Are kids welcome?</h3>
+                <h2 className="mx-auto google-font">Are kids welcome?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         As much as we love your little ones, we will not be including them in the ceremony or reception,
@@ -40,7 +41,7 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">What will the weather be like?</h3>
+                <h2 className="mx-auto google-font">What will the weather be like?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         October has the best weather for San Francisco, you can expect mid 70 degree sunny days,
@@ -48,7 +49,7 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">Where should I park?</h3>
+                <h2 className="mx-auto google-font">Where should I park?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         There is limited parking at Stern Grove, but there are two small lots if you are feeling lucky,
@@ -56,7 +57,7 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">Will the wedding be indoors or outdoors?</h3>
+                <h2 className="mx-auto google-font">Will the wedding be indoors or outdoors?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         The ceremony will be outdoors under the redwoods, along with dinner.
@@ -64,7 +65,7 @@ const QandA = () => {
                     </p>
                     <br></br>
                 </div>
-                <h3 className="mx-auto">What kind of shoes should/shouldn't I wear?</h3>
+                <h2 className="mx-auto google-font">What kind of shoes should/shouldn't I wear?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         We politely ask that you do not wear stiletto heels. Or any tall heels. There are a bunch of
@@ -73,7 +74,7 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">Is it okay to take pictures with our phones and cameras during the wedding?</h3>
+                <h2 className="mx-auto google-font">Is it okay to take pictures with our phones and cameras during the wedding?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         Yes! We would love for you to take photos and share them.
@@ -81,7 +82,7 @@ const QandA = () => {
                     </p>
                 </div>
                 <br></br>
-                <h3 className="mx-auto">Have an additional question?</h3>
+                <h2 className="mx-auto google-font">Have an additional question?</h2>
                 <div className="row">
                     <p className="col-md-8 mx-auto">
                         Please reach out to our dedicated team answering emails at: CookerlyMelody@gmail.com

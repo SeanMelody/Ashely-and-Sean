@@ -4,9 +4,9 @@ import Members from "../../Components/Members/Members"
 const WeddingParty = () => {
     return (
         <div>
-            <h1> Our Wedding Party</h1>
+            <h1 className="google-font">Our Wedding Party</h1>
             <br></br>
-            <img src="./images/Group0.jpg" alt="Group" className="border-dark photo-margin img-thumbnail col-md-4"></img>
+            {/* <img src="./images/Group0.jpg" alt="Group" className="border-dark photo-margin img-thumbnail col-md-4"></img> */}
             <div className="container">
                 <div className="row justify-content-center">
                     <Members

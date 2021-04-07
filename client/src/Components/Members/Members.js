@@ -6,8 +6,8 @@ const Members = (props) => {
             <img
                 className="border-dark img-thumbnail"
                 src={props.img} alt={props.name}></img>
-            <h3>{props.name}</h3>
-            <h5>{props.title}</h5>
+            <h2 className="google-font">{props.name}</h2>
+            <h3 className="google-font-reg">{props.title}</h3>
             <p>{props.bio}</p>
 
         </div>

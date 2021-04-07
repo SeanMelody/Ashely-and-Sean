@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <h1>Ashley and Sean</h1> <h5>October 9th, 2021</h5>
+        <h1 className="google-font section header-title">Ashley and Sean</h1> <h3 className="google-font">October 9th, 2021</h3>
         <Nav />
         <hr></hr>
         <Switch>
