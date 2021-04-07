@@ -65,7 +65,7 @@ const WeddingParty = () => {
                         name={"Matt"}
                         title={"Groomsman"}
                         img={"./images/Matt-and-Sean.jpg"}
-                        bio={"Sean's only brother, general awesome human, designs buildings in NYC, and can draw anything you can think of, and even those things you can't. Lives in Brooklyn"}
+                        bio={"Sean's only brother, general awesome human, designs buildings in New York City, and can draw anything you can think of, and even those things you can't. Lives in Brooklyn"}
                     >
                     </Members>
                 </div>
